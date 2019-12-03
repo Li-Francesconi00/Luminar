@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Gabriela|Montserrat|Gugi&display=swap');
+
+* {
+	font-family: "Montserrat";
+}
+
+input {
+	background-color: #bbb;
+	color: black;
+}
+
+.instructions {
+	color: white;
+}
+
+#img-result {
+    width: 100%;
+}
+.form {
+    margin: 15px;
+}
+img {
+    width: 100%;
+}
+
+.dark {
+	background-color: rgb(41, 0, 88);
+	color: #ddd;
+}
+
+.card {
+	margin: 15px;
+	color: black !important;
+	height: 600px;
+}
+
+.card div  {
+	color: black;
+}
+
+.autor {
+	float: right;
+	padding: 0 10px;
+}
+
+.dia {
+	padding: 0 10px;
+}
+
+.foto {
+  height: auto;
+  max-height: 400px;
+}
+
+.jumbotron {
+	height: 600px;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	margin: 0 !important;
+	padding: 0;
+}
+
+.description {
+	padding: 0 10px;
+	text-align: justify;
+	text-indent: 25px;
+}
+
+h1 {
+	padding-top: 15px;
+	color: white;
+	font-family: "Gugi";
+	font-size: 60px !important;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+	background-color: #ccc;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #666; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #444; 
+}
